@@ -1,17 +1,17 @@
 <div class="section1">
 	<mat-toolbar id="header">
 		<div *ngIf="isUserLogged" id="logout-content">
-			<span>Hi {{ username }}, do you want to logout?</span>
+			<span>logout</span>
 			<button matTooltip="Logout" mat-icon-button id="logout-btn" (click)="logout()">
 				<mat-icon>logout</mat-icon>
 			</button>
 		</div>
 	</mat-toolbar>
 	<div class="openvidu-slogan-container">
-		<a href="https://openvidu.io/" target="_blank">
-			<img id="form-img" src="assets/images/openvidu_logo.png" />
+		<a href="" target="_blank">
+			<img id="form-img" src="assets/images/logo.png" />
 		</a>
-		<h4 id="slogan-text">Videoconference rooms in one click</h4>
+		<h4 id="slogan-text">Online SEMICS Education Platform</h4>
 	</div>
 	<div class="form-container">
 		<div class="grid">
@@ -110,7 +110,7 @@
 		<span>
 		</span>
 		<div id="call-version">
-			<span>{{ version }}</span>
+			<span></span>
 		</div>
 	</mat-toolbar>
 </div>
